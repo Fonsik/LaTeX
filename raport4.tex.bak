@@ -1,0 +1,643 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage[european]{circuitikz}
+\usepackage{geometry}
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+\usepackage{amssymb}
+\usepackage{polski}
+\usepackage{graphicx}
+\author{\textbf{T. Fąs}}
+\title{\textbf{WYZNACZANIE MOMENTU BEZWŁADNOŚCI}}
+\begin{document}
+\maketitle
+
+\begin{center}
+\textbf{\subsection*{STRESZCZENIE}}
+\end{center}
+Celem doświadczenia było wyznaczenie stosunku momentu bezładności do iloczynu masy i kwadratu promienia walca. Do wyznaczenie tej wielkości posłużono się dwoma różnymi metodami. Wyznaczony współczynnik wynosi $\beta=0,77160\pm0,00032$.
+
+\begin{center}
+\textbf{\subsection*{WSTĘP}}
+\end{center}
+Moment bezwładności ciała jest odpowiednikiem bezwładności dla ruchu obrotowego. Zależy on od jego masy, rozmiarów oraz umiejscowienia osi obrotu ciała. Dla ciał o masie $m$, której rozkład jest ciągły, moment bezwładności $I$ dany jest wzorem:
+\begin{equation}
+\label{r1}
+I=\int\limits_{V}r^2dm ,
+\end{equation}
+gdzie $V$ oznacza, iż należy całkować względem całej objętości $V$ ciała, a $r$ jest odległością masy $dm$ od osi obrotu \cite{hrw1}.
+
+Jeśli dane ciało stacza się z równi, o kącie nachylenia $\alpha$ w polu grawitacyjnym o przyśpieszeniu $g$, to wzór na wartość przyśpieszenia $a$ środka masy danego ciała jest następujący:
+\begin{equation}
+\label{r2}
+a=\dfrac{g\sin{\alpha}}{1+I/mR^2},
+\end{equation}
+gdzie $R$ jest promieniem tego ciała \cite{hrw2}. 
+W doświadczeniu wykorzystano walec wydrążony w środku, o masie $m$, promieniu wewnętrznym $r$ i promieniu zewnętrznym $R$. Wyliczenie momentu bezwładności z Równania (\ref{r1}) daje następujący wynik:
+\begin{equation}
+\label{r3}
+I=\dfrac{1}{2}m\left(R^2+r^2\right).
+\end{equation}
+W doświadczeniu szukano stosunku momentu bezładności do iloczynu masy i kwadratu promienia walca. Oznaczono tę wielkość symbolem $\beta=I/mR^2$.
+Stosując to podstawienie do Równania (\ref{r2}) i Równania (\ref{r3}) a następnie rozwiązując je względem $\beta$ otrzymano następujące wzory:
+\begin{eqnarray}
+\label{r4}
+\beta=\dfrac{1}{2}\left(1+\dfrac{r^2}{R^2}\right)\\
+\beta=\dfrac{g\sin{\alpha}}{a}-1
+\label{r5}
+\end{eqnarray}
+Równanie (\ref{r4}) pozwala na wyznaczenie współczynnika $\beta$ na drodze podstawowej teorii i bezpośrednich pomiarów promieni lub średnic walca, z kolei Równanie (\ref{r5}) wymaga pomiarów przyśpieszenia i kątów nachylenia równi. Jest to metoda oparta na pomiarach pośrednich. Z tego powodu wartość współczynnika $\beta$ dla metody opartej o Równanie (\ref{r4}) będzie traktowana jako wartość wzorcowa. Zgodność wartości współczynnika $\beta$ obu tych metod będzie potwierdzeniem teorii oraz poprawności przeprowadzonego eksperymentu. 
+\begin{center}
+\textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
+\end{center}
+Układ doświadczalny składał się z walca metalowego wydrążonego w środku, równi o kontrolowanym kącie nachylenia do poziomu, dwóch fotokomórek rejestrujących położenie ciała na równi, zegara o dokładności 0,0001 s oraz suwmiarki i taśmy mierniczej o działkach odczytu kolejno 0,01 mm i 1 mm. 
+Na potrzeby metody opartej o Równanie (\ref{r4}) zmierzono suwmiarką średnicę $D$ całego walca oraz średnicę $d$ wydrążenia. W takim wypadku, należałoby wprowadzić modyfikacje do Równania (\ref{r4}), aby wyrażało się ono przez średnice walca. Jednak zmiana ta jest kosmetyczna, gdyż wystarczy jedynie zamienić symbole $R$ i $r$ na kolejno $D$ i $d$. Wynika to z równości stosunku promienia do średnicy.
+
+Przyśpieszenie środka masy walca wyznaczono w sposób pośredni. Dwie fotokomórki wyznaczały początek i koniec pewnego odcinka, którego długość mierzono przy pomocy taśmy mierniczej. Fotokomórki te były podłączone do zegara. Gdy walec przecinał pierwszą wiązkę, zegar się uruchamiał, a zatrzymywał się, gdy ciało przecinało drugą wiązkę. W ten sposób zmierzono czas, jakiego potrzebuje walec na pokonanie znanej odległości. Aby dokładniej wyznaczyć przyśpieszenie oraz współczynnik $\beta$ pomiary wykonywano wielokrotnie, dla różnych odległości pomiędzy fotokomórkami oraz dla różnych kątów nachylenia równi. Co więcej, pierwsza fotokomórka była tak ustawiona, że walec, będąc na szczycie równi, prawie stykał się z wiązką. Pomiarów długości odcinka dokonywano od wewnętrznej strony równi, starając się zmierzyć odległość pomiędzy środkiem pierwszej ,a środkiem drugiej fotokomórki. Szerokość fotokomórek wynosiła 4 mm, więc precyzyjne ustalenie środka było ciężkie, dodatkowo miarka ulegała niewielkiemu skręceniu w trakcie pomiaru. Obie te niedogodności uwzględniono w analizie danych. Kąt nachylenia równi, a konkretniej jego sinus, wyznaczono w następujący sposób. Wybrano dwa charakterystyczne punkty na równi, a następnie zmierzono odległość między nimi wzdłuż równi oraz ich wysokość względem podstawy równi. Stosunek różnicy wysokości do odległości tych punktów jest poszukiwaną wartością sinusa kąta nachylenia równi. Zważywszy na to, że punktami charakterystycznymi były nity o dokładnie określonym środku, jedyna niepewność związana z tym pomiarem to rozdzielczość taśmy mierniczej. 
+
+\begin{center}
+\textbf{\subsection*{WYNIKI POMIARÓW}}
+\end{center}
+Wymiary walca zmierzono pięciokrotnie, a wyniki przedstawiono w Tabeli \ref{t1}.
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wymiary walca}
+ \label{t1}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $D$ [mm] &49,56 & 49,55&49,56& 49,55& 49,55 \\
+ \hline
+ $d$ [mm] & 36,52 &36,53&36,52&36,52&36,52 \\
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+Pomiary czasów $t$ staczania się walca wykonano dziesięciokrotnie dla siedmiu różnych odległości $x$ oraz dla dwóch kątów nachylenia równi. Wyniki tych pomiarów zaprezentowane są w Tabeli \ref{t2} i Tabeli \ref{t3}.
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyniki pomiarów czasów staczania się walca}
+ \label{t2}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,10980$} \\
+ \hline
+ $x$ [cm] & 9 &11,35&17,4&20,4&30,3&38,7&54,6 \\
+ \hline
+ Numer pomiaru& \multicolumn{7}{ |c| }{Pomiary czasów $t$ [s]}\\
+ \hline
+ 1&0,37680&0,44170&0,58290&0,64540&0,82140&0,95530&1,16880\\
+ \hline
+ 2&0,37910&0,44170&0,58270&0,64350&0,82300&0,95320&1,16940\\
+ \hline
+ 3&0,38000&	0,43980&0,58340&0,64200&0,82670&0,95450&1,17010\\
+ \hline
+ 4&0,38080&0,44210&0,58220&0,64330&0,82580&0,95430&1,16770\\
+ \hline
+ 5&0,37940&0,44020&0,58330&0,64380&0,82060&0,95450&1,16890\\
+\hline
+ 6&0,37800&0,44140&0,58090&0,64540&0,82200&0,95550&1,17030\\
+\hline
+ 7&0,37920&0,44080&0,58110&0,64250&0,82310&0,95500&1,16880\\
+\hline
+ 8&0,37830&0,44120&0,58120&0,64650&0,82040&0,95520&1,16950\\
+\hline
+ 9&0,37760&0,44070&0,58160&0,64160&0,82120&0,95360&1,16750\\
+\hline
+ 10&0,37890&0,44090&0,58060&0,64390&0,82020&0,95590&1,16830\\
+\hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ 
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyniki pomiarów czasów staczania się walca}
+ \label{t3}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,12891$} \\
+ \hline
+ $x$ [cm] & 9 &16,7&23,3&31,1&43,7&58,3&82,9 \\
+ \hline
+ Numer pomiaru& \multicolumn{7}{ |c| }{Pomiary czasów $t$ [s]}\\
+ \hline
+1&0,34830&0,52350&0,64670&0,77390&0,94860&1,12620&1,37180\\
+\hline
+2&0,34800&0,52370&0,64620&0,77210&0,94680&1,12540&1,36850\\
+\hline
+3&0,34850&0,52360&0,64540&0,77380&0,94710&1,12480&1,37100\\
+\hline
+4&0,34920&0,52400&0,64550&0,77340&0,94880&1,12510&1,37020\\
+\hline
+5&0,34890&0,52350&0,64580&0,77160&0,94770&1,12530&1,36980\\
+\hline
+6&0,34810&0,52320&0,64540&0,77190&0,94710&1,12480&1,37160\\
+\hline
+7&0,34850&0,52300&0,64610&0,77270&0,94800&1,12540&1,37150\\
+\hline
+8&0,34770&0,52320&0,64560&0,77310&0,94740&1,12600&1,36580\\
+\hline
+9&0,34780&0,52280&0,64610&0,77220&0,94790&1,12450&1,37080\\
+\hline
+10&0,34910&0,52310&0,64690&0,77200&0,94920&1,12570&1,37120\\
+\hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+\begin{center}
+Wartości sinusów oparte są na danych przedstawionych w Tabeli \ref{t4}
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyznaczanie kąta nachylenia}
+ \label{t4}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ Wysokość $H_{1}$ [cm]& Wysokość $H_{2}$ [cm]&Długość L [cm]& $\Delta H=H_{2}-H_{1}$&$\sin{\alpha}=\Delta H/L$ \\
+ \hline
+ 10,1 & 12,9 &25,5&2,8&0,10980 \\
+ \hline
+ 10&13,3&25,6&3,3&0,12891\\
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+
+\textbf{\subsection*{ANALIZA DANYCH}}
+\end{center} 
+Pomiar czasu, oparty na dwóch fotokomórkach i zegarze, był niezwykle dokładny, z rozdzielczością przyrządu $\Delta_{t}=0,0001$ s. Dodatkowo eliminował on błąd obserwatora, ponieważ całość działała automatycznie. Z tych powodów głównym źródłem niepewności w przypadku pomiarów czasu jest rozrzut statystyczny wyników. Z kolei pomiarów odległości dokonywano jednokrotnie, korzystając z taśmy mierniczej o dokładności 1 mm, która to jest o dwa rzędy wielkości mniejsza od mierzonych odległości, w porównaniu do trzech, a nawet czterech rzędów wielkości w przypadku pomiaru czasu. Dodatkowo, taśma ulegała niewielkiemu skręceniu w trakcie pomiaru, jaki również precyzyjne ustalenie początku i końca mierzonego odcinka było utrudnione, ponieważ szerokość fotokomórki byłą większa od dokładności miarki. Z tych powodów postanowiono ustalić maksymalny błąd pomiaru na poziomie $\Delta_{x}=2$ mm.
+
+Pomiary czasu dla każdej serii postanowiono uśrednić, korzystając ze średniej arytmetycznej:
+\begin{equation}
+\label{r6}
+\bar{t}=\sum_{i=1}^{N}\dfrac{t_i}{N},
+\end{equation}
+gdzie $N$ jest liczbą pomiarów, w tym przypadku $N=10$. 
+
+Ostateczne niepewności pomiarów czasu $u_{t}$ obliczono, korzystając z odchylenia standardowego średniej $s$, które jest wyrażone wzorem:
+\begin{equation}
+\label{r7}
+s^2_{t}=\sum_{i=1}^{N}\dfrac{(t_{i}-\bar{t})^2}{N(N-1)} \quad \cite{tay2}
+\end{equation}
+oraz ze związku pomiędzy odchyleniem standardowym średniej, a maksymalnym dopuszczalnym błędem pomiaru $\Delta$:
+\begin{equation}
+\label{r8}
+u_{t}^2=s^2_{t}+\dfrac{\Delta_{t}}{3}.
+\end{equation}
+Dla pomiarów odległości $x$ wartość odchylenia średniej jest równa zeru, więc niepewność $u_{x}$ dana jest wzorem:
+\begin{equation}
+\label{r9}
+u_{x}^2=\dfrac{\Delta_{x}}{3}.
+\end{equation}
+Z kolei niepewności pomiarów średnic $D$ i $d$ są dane wzorami analogicznymi do niepewności pomiaru czasu, z wartością $\Delta_{s}=0,01$ mm. Obliczenia oparte na Równaniach (\ref{r6}), (\ref{r7}), (\ref{r8}) i (\ref{r9}) przedstawiono w Tabeli \ref{t5} i Tabeli \ref{t6}.
+
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyznaczanie niepewności}
+ \label{t5}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,10980$} \\
+ \hline
+ $x$ [cm] & 9 &11,35&17,4&20,4&30,3&38,7&54,6 \\
+ \hline
+ Średnia $\bar{t}$ [s]&0,37881&0,44105&0,58199&0,64379&0,82244&0,95470&1,16893\\
+ \hline
+ $s_{t}$ [s]&0,00037&0,00023&0,00033&0,00050&0,00071&0,00027&0,00029 \\
+ \hline
+  $\Delta_{t}$ [s]&0,0001&0,0001&0,0001&0,0001&0,0001&0,0001&0,0001 \\
+ \hline
+ $\Delta_{t}/\sqrt{3}$ [s]&0,00006&0,00006&0,00006&0,00006&0,00006&0,00006&0,00006\\
+ \hline
+ $u_{t}$ [s]&0,00038&0,00023&0,00033&0,00050&0,00071&0,00027&0,00030 \\
+\hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,12891$} \\
+ \hline
+ $x$ [cm] & 9 &16,7&23,3&31,1&43,7&58,3&82,9 \\
+ \hline
+ Średnia $\bar{t}$ [s]&0,34841&0,52336&0,64597&0,77267&0,94786&1,12532&1,37022 \\
+ \hline
+ $s_{t}$ [s]&0,00017&0,00011&0,00017&0,00026&0,00025&0,00017&0,00058\\
+ \hline
+ $\Delta_{t}$ [s]&0,0001&0,0001&0,0001&0,0001&0,0001&0,0001&0,0001 \\
+ \hline
+$\Delta_{t}/\sqrt{3}$ [s]&0,00006&0,00006&0,00006&0,00006&0,00006&0,00006&0,00006\\
+\hline
+ $u_{t}$ [s]&0,00018&0,00013&0,00018&0,00027&0,00026&0,00018&0,00059 \\
+\hline
+ $\Delta_{x}/\sqrt{3}$ [mm]&1,15470&1,15470&1,15470&1,15470&1,15470&1,15470&1,15470\\
+ \hline
+W przeliczeniu na cm&0,11547&0,11547&0,11547&0,11547&0,11547&0,11547&0,11547\\
+\hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyznaczanie niepewności średnic}
+ \label{t6}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ Wielkość&$D$&$d$   \\
+ \hline
+ Średnia [mm] &49,55400&36,52200 \\
+ \hline
+ $s_{k}$ [mm]&0,00245&0,00200\\
+ \hline
+ $\Delta_{s}$ [mm]&0,01&0,01\\
+ \hline
+ $\Delta_{s}/\sqrt{3}$ [mm]&0,00577&0,00577\\
+ \hline
+ $u_{k}$ [mm]&0,00627&0,00611\\
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ W dalszej części analizy skupiono się na wyznaczeniu współczynnika $\beta$ i jego niepewności na podstawie danych z Tabeli \ref{t6} i Równania (\ref{r4}). Otrzymano następujący wynik: $\beta=0,77159$.  
+Aby wyznaczyć niepewność tego współczynnika posłużono się metodą propagacji małych błędów, która  pozwala na przenoszenie niepewności. Ogólny wzór na wyznaczanie niepewności tą metodą jest następujący:
+\begin{equation}
+ \label{r10}
+ u_{f}^2=\sum_{i=1}^n \left( \dfrac{\partial f}{\partial x_{i}}u_{i}\right) ^2,
+ \end{equation}
+ gdzie $u_{f}$ jest niepewnością szukanej wielkości zależnej od $x_{i}$, a $u_{i}$ jest niepewnością $x_{i}$ \cite{tay1}. Stosując Równanie (\ref{r10}) do Równania (\ref{r4}) oraz stosując stosowne podstawienia otrzymano następujący wzór:
+ \begin{equation}
+ \label{r11}
+ u_{\beta_{1}}=\dfrac{d}{D^2}\sqrt{u_{d}^2+\left(\dfrac{d}{D}u_{D}\right)^2}\\
+ \end{equation}
+Stosując Równanie (\ref{r11}) do danych z Tabeli \ref{t6} otrzymano następującą niepewność: $u_{\beta}=0,00011$. Ostateczny wynik można zapisać jako $\beta=0,77159\pm0,00011$.
+
+Na potrzeby dalszej analizy stworzono wykres zależności $x(t)$ dla obu kątów nachylenia równi opierając się na wartościach średnich. Wykresy te są przedstawione na Rysunku 1 i Rysunku 2. Wyraźnie widać zależność opisaną równaniem kwadratowym:
+\begin{equation}
+\label{r12}
+x(t)=\dfrac{1}{2}at^2+v_{0}t,
+\end{equation}
+gdzie $v_{0}$ jest prędkością początkową walca. Wyznaczanie przyśpieszenia na podstawie tego równania byłoby skomplikowane, dlatego postanowiono zastosować podstawienie $w=x(t)/t$. W takim przypadku Równanie (\ref{r12}) przyjmuje postać:
+\begin{equation}
+w(t)=\dfrac{x(t)}{t}=\dfrac{1}{2}at+v_{0}.
+\end{equation}
+Jest to równanie prostej $w=At+b$, w którym współczynnik kierunkowy jest połową przyspieszenia środka masy, a wyraz wolny jest wartością początkowej prędkości walca. Wartości $w$ oraz $t$ zaprezentowane są w Tabeli \ref{t7}.
+
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wartości $w(t)$}
+ \label{t7}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,10980$} \\
+ \hline
+ $x$ [cm] & 9 &11,35&17,4&20,4&30,3&38,7&54,6 \\
+ \hline
+ Średnia $\bar{t}$ [s]&0,37881&0,44105&0,58199&0,64379&0,82244&0,95470&1,16893\\
+ \hline
+ $w(t)$ [cm/s]&23,75861&25,73404&29,89742&31,68735&36,84159&40,53629& 46,70938\\
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,12891$} \\
+ \hline
+ $x$ [cm] & 9 &16,7&23,3&31,1&43,7&58,3&82,9 \\
+ \hline
+ Średnia $\bar{t}$ [s]&0,34841&0,52336&0,64597&0,77267&0,94786&1,12532&1,37022 \\
+ \hline
+  $w(t)$ [cm/s]&25,83164&31,90920&36,06979&40,25004&46,10385&51,80749&60,50123\\
+  \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ Na podstawie Tabeli \ref{t7} stworzono dwa wykresy zależności $w(t)$ przedstawione na Rysunku 3 i Rysunku 4. W obu przypadkach widać wyraźnie układanie się punktów na prostej. Stanowi to potwierdzenie słuszności zastosowanych wzorów oraz zastosowanego podstawienia.
+ Do wyznaczenia przyśpieszeń na podstawie równania prostej posłużono się metodą najmniejszych kwadratów. Polega ona na minimalizacji wielkości, która w naszym przypadku jest dana wzorem:
+ \begin{equation}
+ R(a,b)=\sum_{i=1}^n\left(\dfrac{w_i-\hat{A}t-\hat{b}}{u_i}\right)^2,
+ \end{equation}
+ gdzie $u_i$ to niepewności wielkości $w_i$, z kolei $n$ jest liczbą pomiarów. W naszym przypadku $n=7$. 
+ Niepewność wielkości $w$ obliczono korzystając z Równania (\ref{r10}). Otrzymano następujący wzór:
+ \begin{equation}
+ u_{wi}=w_i\sqrt{\left(\dfrac{u_{ti}}{t_i}\right)^2+\left(\dfrac{u_{xi}}{x_i}\right)^2}.
+ \end{equation}
+Korzystając z metody najmniejszych kwadratów na osi X należy odkładać zmienną obarczoną mniejszą niepewnością. Opierając się na danych z Tabeli 5 założono, że jest to wielkość $t$. Aby zyskać absolutną pewność co do wyboru zmiennej należy sprawdzić, czy iloczyn $0,5Au_t$, gdzie $A$ jest wstępną oceną parametru prostej, jest znacząco mniejszy od wartości $u_w$. Wynik ten wynika z zastosowania Równania (10) do prawej strony Równania (13), czyli sprawdzamy, czy niepewność $u_{w}$ jest mniejsza czy też większa od maksymalnej niepewności prawej strony Równania (13). Na potrzeby tej analizy przeprowadzono odpowiednie obliczenia, wyniki przedstawiono w Tabeli \ref{t8}. Wartości $A$ wyliczano dla punktów skrajnych, to znaczy, dla pierwszego i ostatniego pomiaru.
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wybór zmiennej niezależnej}
+ \label{t8}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$A=29,04720$ cm/s$^2$} \\
+ \hline
+ $u_w$ [cm/s]&0,30573&0,26216&0,19915&0,18106&0,14400&0,12151&0,09951\\
+ \hline
+ $u_{t}$ [s]&0,00038&0,00023&0,00033&0,00050&0,00071&0,00027&0,00030 \\
+\hline 
+ $0,5Au_t$ [cm/s]&0,00545&0,00338&0,00486&0,00731&0,01037&0,00399&0,00435\\
+ \hline
+$0,5Au_t/u_w$&0,01784&0,01291&0,02439&0,04040&0,07200&0,03281&0,04374\\
+\hline
+ \multicolumn{8}{ |c| }{$A=33,92959$ cm/s$^2$} \\
+ \hline
+ $u_w$ [cm/s]&0,33168&0,22077&0,17903&0,15010&0,12247&0,10295&0,08816\\
+ \hline
+ $u_{t}$ [s]&0,00018&0,00013&0,00018&0,00027&0,00026&0,00018&0,00059 \\
+\hline
+$0,5Au_t$ [cm/s]&0,00300&0,00218&0,00300&0,00457&0,00440&0,00307&0,00994\\
+\hline
+$0,5Au_t/u_w$&0,00904&0,00987&0,01678&0,03047&0,03596&0,02986&0,11279\\
+\hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ Jak widać, wybór zmiennej niezależnej był dobry. Teraz można wyznaczyć parametry prostej, dla której wielkość opisana Równaniem (14) przyjmuje wartość najmniejszą. Jawny wzór przy wykorzystaniu aktualnie zdefiniowanych symboli przyjmuje zbyt skomplikowaną postać, dlatego zdecydowano się podzielić ten wzór na szereg pomniejszych wartości, które wyglądają następująco:
+ \begin{eqnarray*}
+ \hat{A}=u_{A}^{2}\sum_{i=1}^{n}\dfrac{(t_i-\bar{t}_{w})(w_i-\bar{w}_{w})}{u_{wi}^2}, \quad
+ \hat{b}=\bar{w}_{w}-\hat{A}\bar{t}_{w},\quad
+ u_{A}^{2}=\dfrac{1}{\sum_{i=1}^{n}\left(\dfrac{t_i-\bar{t}_{w}}{u_{wi}}\right)^2} \\
+ u_{b}^2=\bar{t^2}_{w}u_{A}^{2},\quad
+\bar{t}_{w}=\dfrac{1}{S}\sum_{i=1}^{n}\frac{t_i}{u_{wi}^{2}}, \quad
+\bar{w}_{w}=\dfrac{1}{S}\sum_{i=1}^{n}\frac{w_i}{u_{wi}^{2}},\quad
+\bar{t^2}_{w}=\dfrac{1}{S}\sum_{i=1}^{n}\frac{t^{2}_{i}}{u_{wi}^{2}}, \quad
+S=\sum_{i=1}^{n}\dfrac{1}{u_{wi}^2}.
+ \end{eqnarray*}
+Na podstawie tych wzorów stworzono Tabelę \ref{t9}.
+
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wyznaczanie współczynników}
+ \label{t9}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,10980$} \\
+ \hline
+ $u_w$ [cm/s]&0,30573&0,26216&0,19915&0,18106&0,14400&0,12151&0,09951\\
+ \hline
+$1/u^2$ [s$^2$/cm$^2$]&10,69842&14,55016&25,21431&30,50226&48,22865&67,730107&100,99593\\
+\hline
+$t/u^2$ [s$^3$/cm$^2$]&4,05267&6,41735&14,67448&19,63705&39,66517&64,66193&118,05717\\
+\hline
+$w/u^2$ [s/cm]&254,17960&374,43439&753,84298&966,53599&1776,82035&2745,52719&4717,45767\\
+\hline
+$(t-t_{w})/u=\delta_{t}$[s$^3$/cm$^2$]&-1,69417&-1,73833&-1,58064&-1,39718&-0,51620&0,47675&2,73511\\
+\hline
+$(w-w_{w})/u=\delta_{w}$ [s/cm]&-49,52200&-50,21747&-45,20064&-39,82938&-14,28838&13,47425&78,49132\\
+\hline
+$\delta_{t}\delta_{w}$ [s$^4$/cm$^2$]&83,89864&87,29464&71,44576&55,64897&7,37572&6,42381&214,68244\\
+\hline
+$\delta_{t}^2$[s$^6$/cm$^4$]&2,87021&3,02180&2,49841&1,95212&0,26647&0,22729&7,48083\\
+\hline
+${t^2}/{u^2}$[s$^4$/cm$^2$]&1,53519&2,83037&8,54040&12,64214&32,62222&61,73274&138,00057\\
+\hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,12891$} \\
+ \hline
+ $u_w$ [cm/s]&0,33168&0,22077&0,17903&0,15010&0,12247&0,10295&0,08816\\
+\hline
+$1/u^2$ [s$^2$/cm$^2$]&9,09002&20,51709&31,20037&44,38447&66,66681&94,35206&128,67787\\
+ \hline
+$t/u^2$ [s$^3$/cm$^2$]&3,16705&10,73783&20,15450&34,29455&63,19080&106,17626&176,31698\\
+\hline
+$w/u^2$ [s/cm]&234,80998&654,68404&1125,39056&1786,47692&3073,59706&4888,14313&7785,16955\\
+\hline
+$(t-t_{w})/u=\delta_{t}$[s$^3$/cm$^2$]&-2,11073&-2,37863&-2,24838&-1,83758&-0,82166&0,74626&	3,64955\\
+\hline
+$(w-w_{w})/u=\delta_{w}$ [s/cm]&-71,36908&-79,69362&-75,03565&-61,64638&-27,75593&22,38225&	124,75708\\
+\hline
+$\delta_{t}\delta_{w}$ [s$^4$/cm$^2$]&150,64055&189,56173&168,70894&113,28005&22,80608&	16,70298&455,30748\\
+\hline
+$\delta_{t}^2$[s$^6$/cm$^4$]&4,45516&5,65789&5,05523&3,37669&0,67513&0,55690&13,31923\\
+\hline
+${t^2}/{u^2}$[s$^4$/cm$^2$]&1,10343&5,61975&13,01920&26,49837&59,89604&119,48227&241,59306\\
+\hline
+\hline
+Kąt nachylenia&$\bar{t}_{w}$ [s]&$\bar{w}_{w}$ [cm/s]&$\bar{t^{2}}_{w}$[s$^2$]&$\hat{A}$ [cm/s$^2$]&$\hat{b}$ [cm/s]&$u_{A}$[cm/s$^2$]&$u_{b}$[cm/s]\\
+\hline
+$sin{\alpha}=0,10980$&0,89677&38,89905&0,86568&28,75833&13,10941&0,23365&0,21740\\
+\hline
+$sin{\alpha}=0,12891$&1,04849&1,18315&49,50324&33,75029&14,11630&0,17382&0,18907\\
+\hline
+\end{tabular}
+ \end{table}
+ \end{center}
+Jak widać, wartości współczynnika $A$ są w przybliżeniu równe wstępnym ocenom tych parametrów, dodatkowo wartości współczynnika $b$ pokrywają się z wartością wynikającą z wizualnego dopasowania krzywej do punków przedstawionego na Rysunku 3 i Rysunku 4. 
+
+Aby zyskać pewność, co do przyjętego modelu teoretycznego, przeprowadzono test $\chi^2$ Pearsona. Polega on na sprawdzeniu, czy wartość $\chi_{0}^2$, wynikająca z ocen parametrów, jest mniejsza od wartości krytycznej $\chi^2$ wynikającej z modelu. Wartość $\chi^2$ zależy od ilości stopni swobody oraz od prawdopodobieństwa popełnienia błędu I rodzaju, czyli odrzucenia hipotezy prawdziwej. Na potrzeby tego testu przyjęto prawdopodobieństwo na poziomie $P=0,005$. Ilość stopni swobody to różnica pomiędzy ilością wykonanych pomiarów a liczbą parametrów. W tym przypadku liczba pomiarów wynosi 7, a liczba parametrów jest równa 2. Tak więc liczba stopni swobody wynosi $\nu=7-2=5$. Wartość krytyczną $\chi^2=16,75$ odczytano z tablic statystycznych \cite{g1}. Aby wyznaczyć wartość $\chi_{0}^2$ posłużono się wzorem:
+\begin{equation}
+ \chi_{0}^2=\sum_{i=1}^N\dfrac{(y_{i}-\hat{a}x-\hat{b})^2}{u_{i}^2} \quad \cite{tay3},
+ \end{equation} 
+który dla rozpatrywanego przypadku przyjmuje postać:
+\begin{equation}
+\label{r17}
+ \chi_{0}^2=\sum_{i=1}^7\dfrac{(w_{i}-\hat{A}x-\hat{b})^2}{u_{i}^2} 
+ \end{equation} 
+ Na podstawie Równania (\ref{r17}) stworzono Tabelę \ref{t10}. 
+ 
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Obliczanie reszt oraz $\chi^2$}
+ \label{t10}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,10980$} \\
+ \hline
+$w_{i}-\hat{A}t-\hat{b}=\varepsilon_{i}$ [cm/s]&-0,24475&-0,05923&0,05094&0,06361&0,08018&-0,02870&-0,01651\\
+\hline
+$(w_{i}-\hat{A}t-\hat{b}/u_{i})^2$&0,64084&0,05105&0,06544&0,12342&0,31002&0,05579&0,02753\\
+\hline
+ \multicolumn{8}{ |c| }{$sin{\alpha}=0,12891$} \\
+ \hline
+ $w_{i}-\hat{A}t-\hat{b}=\varepsilon_{i}$ [cm/s]&-0,04361&0,12935&0,15181&0,05590&-0,00300&	-0,28870&0,13961\\
+ \hline
+$(w_{i}-\hat{A}t-\hat{b}/u_{i})^2$&0,01729&0,34326&0,71902&0,13870&0,00060	&7,86380&2,50788\\
+\hline
+\end{tabular}
+ \end{table}
+ \end{center}
+Obliczone wartości $\chi_{0}^2$ wynoszą kolejno: $\chi_{01}^2=1,27409
+$ oraz $\chi_{02}^2=11,59055$. Jak widać wartości te są mniejsze od wartości krytycznej $\chi^2=16,75$. Wynika stąd, iż wybrany model nie jest sprzeczny z danymi. Dodatkowo, stworzono wykres reszt $\varepsilon_{i}$ dla kąta nachylenia o wartości $sin{\alpha}=0,10980$. Wykres ten przedstawiono na Rysunku 5. W przypadku idealnym wszystkie punkty oscylowałyby wokół zera, a suma ich wartości byłaby równa zeru. W naszym przypadku mamy 3 reszty dodatnie i 4 ujemne, dodatkowo, ze względu na dużą wartość jednej z reszt względem pozostałych, ciężko jest wychwycić oscylacje wokół zera. Jednak biorąc pod uwagę fakt, jak niewielkie są to odchylenia w stosunku do wartości $w_{i}$ można śmiało założyć, że przeprowadzone obliczenia doprowadziły do najlepszego przybliżenie wartości współczynników prostej.
+
+   
+Aby wyznaczyć współczynnik $\beta$ i jego niepewność należy na podstawie współczynnika $A$ wyznaczyć przyśpieszenie walca, niepewność przyśpieszenia oraz z danych z Tabeli 4 wyznaczyć niepewność wartości $\sin{\alpha}$. Na podstawie relacji wynikającej z Równania (13) wyznaczono przyśpieszenie $a=2A$. Jego niepewność wyznaczono opierając się o Równanie (10) i otrzymano:
+\begin{equation}
+ u_{a}=2u_{A}.
+ \end{equation} 
+Z relacji $\sin{\alpha}=\Delta H/L$ otrzymano z Równania (10) następującą niepewność $\sin{\alpha}$:
+\begin{equation}
+ u_{sin}=\sin{\alpha}\sqrt{\dfrac{2\Delta_{d}^2}{3\Delta H^2}+\dfrac{\Delta_{d}^2}{3L^2}},
+ \end{equation}
+przy czym $\Delta_d=1$ mm.
+Podstawiając dane do Równania (18), Równania (19) oraz do Równania (5) otrzymano wyniki, które wstawiono do Tabeli \ref{t11}. Na potrzeby obliczeń przyjęto wartość $g=9,8132$ m/s$^2$. Dodatkowo otrzymaną wartość $a$ zamieniono z cm/s$^2$ na m/s$^2$ w trakcie obliczania współczynniki $\beta$. 
+
+
+
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Wartości niepewności oraz współczynnik $\beta$}
+ \label{t11}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $\sin{\alpha}$&$u_{sin}$&a [cm/s$^2$]&$u_{a}$ [cm/s$^2$]&$\beta$&$u_{\beta}$\\
+\hline
+0,10980&0,00321&57,51667&0,46731&0,87325&0,05686\\
+\hline
+0,12891&0,00319&67,50058&0,34765&0,87386&0,04736\\
+\hline
+
+\end{tabular}
+ \end{table}
+ \end{center}
+Wartości niepewności współczynnika $\beta$ obliczono korzystając z Równania (5) i Równania (10) i wyliczając:
+\begin{equation}
+u_{\beta}=\dfrac{g}{a}\sqrt{\dfrac{\sin^2{\alpha}}{a^2}u_{a}^{2}+u_{sin}^{2}}.
+\end{equation}
+
+Aby się przekonać, czy wartości $\beta$ otrzymane dla różnych kątów nachylenia równi są ze sobą zgodne, przeprowadzono test $3\sigma$. Polega on na sprawdzeniu, czy moduł różnicy $|\beta_{1}-\beta_{2}|$ jest mniejszy od trzykrotności niepewności tej różnicy. Niepewność różnicy wyznaczono na podstawie Równania (10) i otrzymano:
+\begin{equation}
+ u_{r}=\sqrt{u_{\beta1}^2+u_{\beta2}^2}
+ \end{equation} 
+Otrzymane wartości przedstawiono w Tabeli 12.
+
+\begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Test $3\sigma$}
+ \label{t12}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $|\beta_{1}-\beta_{2}|$&$u_{r}$&$3\sigma$&$|\beta_{1}-\beta_{2}|/3\sigma$\\
+\hline
+0,00061&0,07400&0,22200&0,00277\\
+\hline
+\end{tabular}
+ \end{table}
+ \end{center}
+ Jak widać, wyniki te są ze sobą zgodne. Dzięki temu można wyznaczyć najlepszą ocenę parametru $\beta$, która wynika z obu tych wartości oraz ich niepewności korzystając ze średniej ważonej. Średnia ważona $N$ wielkości $x_{i}$ o niepewnościach $u_{i}$ zdefiniowana jest w następujący sposób:
+ 	\begin{equation}
+ 	\bar{x_{w}}=\dfrac{\sum_{i=1}^{N}\dfrac{x_i}{u_{i}^2}}{\sum_{i=1}^{N}\dfrac{1}{u_{i}^{2}}}.
+ 	\end{equation}
+ Niepewności średniej ważonej wrażają się w następującymi wzorami:
+ \begin{eqnarray}
+ u^{2}_{int}=\dfrac{1}{\sum_{i=1}^{N}\dfrac{1}{u_{i}^2}}, \\
+ u^{2}_{ext}=\dfrac{u_{int}^2}{N-1}\sum_{i=1}^{N}\left(\dfrac{x_{i}-\bar{x}_{w}}{u_{i}}\right)^2.
+ \end{eqnarray}
+ Jako ostateczną niepewność niepewność wielkości $\bar{x}_{w}$ wybiera się większą z niepewności $u_{int}$ lub $u_{ext}$ \cite{tay4}.
+ Na podstawie Równania (22), Równania (23)i Równania (24) stworzono Tabelę 13.
+ 
+ 
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Średnia ważona}
+ \label{t13}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $\beta$&$u_{\beta}$&$1/{u_{i}^2}$&$\beta/{u_{i}^2}$&$\beta-\beta_{w}$&$(\beta-\beta_{w}/u_{i}^2)^2$\\
+\hline
+0,87325&0,05686&309,26122&270,06133&-0,00036&0,00004\\
+\hline
+0,87386&0,04736&445,88519&389,64147&0,00025&0,00003\\
+\hline
+ \multicolumn{2}{ |c| }{$\beta_{w}=0,87361$}& \multicolumn{2}{ |c| }{$u_{int}=0,03639$}& \multicolumn{2}{ |c| }{$u_{ext}=0,00030$}\\
+
+\hline
+\end{tabular}
+ \end{table}
+ \end{center}
+ Ostateczny wynik można zapisać jako $\beta=0,87361 \pm 0,03639$. Aby uzyskać pewność, czy wynik ten jest zgodny z wynikiem otrzymanym dla pomiarów średnic walca należy przeprowadzić test $3\sigma$. Postępowanie jest analogiczne do tego, które doprowadziło do powstania Tabeli 12. Wyniki przedstawiono w Tabeli 14.
+ 
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Test $3\sigma$}
+ \label{t14}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $\beta_{1}$&$\beta_{2}$&$|\beta_{1}-\beta_{2}|$&$u_{r}$&$|\beta_{1}-\beta_{2}|/\sigma$\\
+\hline
+0,77159&0,87361&0,10201&0,03639&2,80333\\
+\hline
+\end{tabular}
+ \end{table}
+ \end{center}
+ Otrzymane wyniki są ze sobą zgodne, więc po raz kolejny można wyznaczyć najlepszą ocenę współczynnika $\beta$ korzystając ze średniej ważonej. Stworzono Tabelę 15 analogiczną do Tabeli 13.
+ \begin{center}
+ \begin{table}[h!]
+ \centering
+ \caption{Średnia ważona}
+ \label{t15}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $\beta$&$u_{\beta}$&$1/{u_{i}^2}$&$\beta/{u_{i}^2}$&$\beta-\beta_{w}$&$(\beta-\beta_{w}/u_{i}^2)^2$\\
+\hline
+0,77159&0,00011&77015213,55207&59424549,13452&0,00000&0,00008\\
+\hline
+0,87361&0,03639&755,14641&659,70280&0,10201&7,85858\\
+
+\hline
+ \multicolumn{2}{ |c| }{$\beta_{w}=0,77160$}& \multicolumn{2}{ |c| }{$u_{int}=0,00011$}& \multicolumn{2}{ |c| }{$u_{ext}=0,00032$}\\
+\hline
+\end{tabular}
+ \end{table}
+ \end{center} 
+ Ostatecznie otrzymano współczynnik $\beta=0,77160 \pm 0,00032$. Jak widać w Tabeli 15, największy wkład miała wartość obliczona na podstawie pomiarów średnicy walca. Wkład pochodzący od obliczeń dla przyśpieszenia środka masy walca jest pomijalny. Wynika to z dużej niepewności jaką był obarczony pomiar współczynnika $\beta$ dla tego sposobu.  
+ 
+ 
+ \begin{center}
+\textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
+\end{center} 
+Otrzymany wynik w dużej mierze zależał od wyniku otrzymanego drogą bezpośredniego pomiaru średnic walca. Warto zwrócić uwagę na dużą rozbieżność wyniku otrzymanego metodą wyznaczania przyśpieszenia względem metody bezpośredniego pomiaru. Ich różnica z niewielkim marginesem przeszła test $3\sigma$. Duża rozbieżność tych wyników może wynikać z błędów eksperymentalnych. Przede wszystkim, walec oraz równię należałoby wycierać po każdej serii pomiarowej, aby pozbyć się zanieczyszczeń, które mogłyby wpłynąć na otrzymywane wyniki. Jednak nie uczyniono tego, ponieważ ręczniki papierowe nie zostały dostarczone do pracowni. Inną możliwą przyczyną może być stan równi, która nosiła wyraźnie ślady eksploatacji, a jej powierzchnię przecinały sporej wielkości rysy. Dodatkowo, jak wspomniano w analizie danych, pomiar odległości pomiędzy fotokomórkami był obarczony sporą niepewnością. Biorąc pod uwagę te wszystkie przeciwności rozbieżność wyników staje się mniej zaskakująca. Aby zyskać absolutną pewność co do otrzymanego wyniku ostatecznego, należałoby przeprowadzić dodatkowe eksperymenty na innych równiach przy zachowaniu szczególnej ostrożności przy pomiarach drogi oraz przykładając szczególną wagę do czystości walca. Aczkolwiek otrzymany wynik jest obarczony niewielką niepewnością w porównaniu do wszystkich pomiarów pośrednich, które doprowadziły do niego. Jak widać, skuteczna analiza danych pozwoliła na znaczące zmniejszenie niepewności. Warto jeszcze zwrócić uwagę na podejrzanie niską wartość $\chi_{01}^2$. Choć mogłoby się wydawać, że tak niska wartość świadczy o doskonałym dopasowaniu modelu do wyników, to może być również podstawą, by stwierdzić iż otrzymane wyniki $w_{i}$ nie są niezależne od siebie. Wziąwszy pod uwagę wszystkie wymienione przeciwności może to być prawdą, walec zbierał coraz więcej brudu z każdym kolejnym pomiarem, więc kolejne otrzymywane wartości faktycznie mogły zależeć od siebie.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+\begin{center}
+\begin{thebibliography}{9}
+
+\bibitem{hrw1}
+ D. Halliday, R. Resnick, J. Walker,
+  \emph{Podstawy Fizyki, Tom 1},
+  PWN, Warszawa, 2003, s. 273.
+  
+  \bibitem{hrw2}
+ D. Halliday, R. Resnick, J. Walker,
+  \emph{Podstawy Fizyki, Tom 1},
+  PWN, Warszawa, 2003, s. 301.
+  
+  \bibitem{tay2}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 101.
+ 
+  \bibitem{tay1}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 81.
+ 
+  \bibitem{tay3}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 251.
+  
+  \bibitem{g1}
+  N. W. Smirnow, I. W. Dunin-Barkowski,
+  \emph{Kurs rachunku prawdopodobieństwa i statystyki matematycznej dla zastosowań technicznych},
+  PWN, Warszawa, 1973, s. 544.
+ 
+  \bibitem{tay4}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 169. 
+
+ 
+  
+  \end{thebibliography}
+\end{center}
+\end{document}

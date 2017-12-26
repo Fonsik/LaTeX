@@ -1,0 +1,60 @@
+SciDAVis 1.18.0 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+2893
+<table creation_time="2017-21-11 23:44:54:396" caption_spec="%n%C{ - }%c" name="Table1" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-21-11 23:44:54:396" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-21-11 23:44:54:396" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-21-11 23:44:54:396" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.3096245130000000e+09</row><row type="TypeDouble" index="1" invalid="no">1.4143988499000000e+10</row><row type="TypeDouble" index="2" invalid="no">2.2235015281000000e+10</row><row type="TypeDouble" index="3" invalid="no">3.4317969196000000e+10</row><row type="TypeDouble" index="4" invalid="no">5.2993693280000000e+10</row><row type="TypeDouble" index="5" invalid="no">1.6926498811000000e+10</row><row type="TypeDouble" index="6" invalid="no">2.2291374125000000e+10</row><row type="TypeDouble" index="7" invalid="no">3.7228537059000000e+10</row><row type="TypeDouble" index="8" invalid="no">5.7986713830000000e+10</row><row type="TypeDouble" index="9" invalid="yes">0.0000000000000000e+00</row></column><column creation_time="2017-21-11 23:44:54:397" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-21-11 23:44:54:397" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-21-11 23:44:54:397" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">-2.5817799999999999e-05</row><row type="TypeDouble" index="1" invalid="no">1.0458849130000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.4797362489999999e+00</row><row type="TypeDouble" index="3" invalid="no">1.5639335070000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.1927518790000000e+00</row><row type="TypeDouble" index="5" invalid="no">1.2528180339999999e+00</row><row type="TypeDouble" index="6" invalid="no">1.4812834500000001e+00</row><row type="TypeDouble" index="7" invalid="no">1.5335050809999999e+00</row><row type="TypeDouble" index="8" invalid="no">1.0444035940000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	0	0	573	382	
+
+</table>
+<multiLayer>
+Graph1	1	1	22.11.2017 00:22:31
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	1860	789
+Alignement	0	0
+<graph>
+ggeometry	5	5	1909	850
+PlotTitle		#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Czwarta potęga temperatury[K<sup>4</sup>]	Różnica mocy [W]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	16	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	16	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	14	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	14	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_2	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+scale	0	0	2	0	6	5	0	0
+scale	1	0	2	0	8	5	0	0
+scale	2	0	60000000000	0	8	5	0	0
+scale	3	0	60000000000	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	3	1	3	1	
+MinorTicks	3	1	3	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	3
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+</log>

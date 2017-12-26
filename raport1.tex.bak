@@ -1,0 +1,352 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{geometry}
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+\usepackage{amssymb}
+\usepackage{polski}
+\usepackage{graphicx}
+\author{\textbf{T. Fąs}}
+\title{\textbf{OKRES WAHADŁA MATEMATYCZNEGO}}
+\begin{document}
+\maketitle
+
+\begin{center}
+\textbf{\subsection*{STRESZCZENIE}}
+\end{center}
+Doświadczenie polegało na wyznaczeniu okresu wahadła. Wahadło, przymocowane do wysięgnika, odchylano o mały kąt.  Pomiarów dokonano przy pomocy stopera. Mierzono pojedyncze, jak i poczwórne okresy. Wyznaczono okres wahadła \textit{T}=(3,29333 $\pm$ 0,0026) s.
+
+\begin{center}
+\textbf{\subsection*{WSTĘP}}
+\end{center}
+Rozważmy ciężarek o masie \textit{m} wiszący na nici o długości \textit{l} przymocowanej do stałego punktu tak, że ciężarek zwisa swobodnie. Jeśli ciężarek zostanie odchylony od położenia równowagi o mały kąt $\theta$, to okres \textit{T} drgań tego wahadła będzie dany wzorem
+\begin{equation*}
+T=2\pi\sqrt{\dfrac{l}{g}},
+\end{equation*}
+gdzie \textit{g} to przyśpieszenie ziemskie \cite{hrw}. Jak widać, okres zależy tylko od długości nici. Celem doświadczenia było wyznaczenie tego okresu, przy zachowaniu stałej długości nici. 
+\begin{center}
+\textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
+\end{center}
+Wahadło składało się z kuli przyczepionej do cienkiej nici. Całość była zawieszona na wysięgniku zamontowanym na ścianie. Pomiaru odległości wahadła od podłogi dokonywano przy pomocy taśmy mierniczej pozwalającej na odczyt z dokładnością do 1 mm i cienkiej linijki, która służyła jako punkt odniesienia. Pomiaru dokonano w następujący sposób: cienką linijkę przyłożono poziomo do spodu kuli tak, aby jej część wystawała poza obrys kuli. Następnie taśmą mierniczą zmierzono odległość pomiędzy linijką i podłożem. Pomiaru okresu dokonano przy pomocy stopera pozwalającego na odczyt z dokładnością do 0,01 s. Wykorzystano również kartki z grubymi liniami oraz punkty charakterystyczne na krześle, aby móc dokładniej określić, kiedy wahadło wykona jeden pełny okres. Sam okres mierzono względem punktu równowagi wahadła, podwójne przejście przez ten punkt traktowano jako jeden okres.
+\begin{center}
+\textbf{\subsection*{WYNIKI POMIARÓW}}
+\end{center}
+Dokonano 216 pomiarów pojedynczego okresu wahadła i 54 pomiary poczwórnych okresów. Ze względu na dużą liczbę pomiarów, zostały one zapisane w Tabeli \ref{6} i Tabeli \ref{7} w Dodatku A. Dokonano również pojedynczego pomiaru odległości wahadła od podłoża $h_{1}=(218\pm2)$ mm. Za dokładność pomiaru przyjęto 2 mm ze względu na brak możliwości dokładnego odczytu wysokości. 
+\begin{center}
+\textbf{\subsection*{ANALIZA DANYCH}}
+\end{center}
+Na Rysunku 1 przedstawiono histogram częstości dla 216 okresów wahadła. Przy rysowaniu tego i innych histogramów przyjęto konwencję, w której przedział histogramowania jest z lewej strony otwarty,
+z prawej zaś domknięty. Szerokość przedziału $\Delta$ jest stała i taka sama dla każdego histogramu, $\Delta=0,03$ s. Przy wykonywaniu tych histogramów skorzystano z pojęcia częstości, która jest zdefiniowana następującym wzorem:
+\begin{equation*}
+p_{i}=\dfrac{n_{i}}{N},
+\end{equation*}
+gdzie \textit{N} - liczba wszystkich pomiarów w próbce, $n_{i}$ - liczba pomiarów mieszczących się w i-tym przedziale \cite{tay1}. Wartości krotności i częstości znajdują się w Tabeli $8$ i Tabeli $9$ w Dodatku A.
+Rysunek 2 przedstawia histogram dla wartości średniej czterech kolejnych okresów wahadła, z kolei Rysunek 3 przedstawia histogram czwartych części 54 poczwórnych okresów. Dla wszystkich histogramów zastosowano tę samą skalę. Można zaobserwować wyraźne zwężenie przedziału, co oznacza mniejszy rozrzut wyników. Na tej podstawie można stwierdzić, że największą dokładnością charakteryzują się pomiary poczwórnych okresów wahadła, ponieważ histogram ich wartości jest najwęższy. Rysunek 1 wskazuje również, że rozkład pomiarów podobny jest do rozkładu Gaussa. Wynika stąd, że można posłużyć się średnią, jako miarą prawdziwej wartości okresu oraz odchyleniem standardowym, jako miarą niepewności. 
+
+Na potrzeby dalszej analizy zbiór 216 pomiarów został podzielony na grupy zawierające po $n=2$, 3, 4, 6, 9, 12, 18 i 24 okresy w każdej podgrupie. Na przykład grupa zawierająca po dwa okresy składa się z $k=108$ podgrup. Niech $i=1$,\ldots, k oznacza numer podgrupy, a $j=1, \ldots, n$ numer pomiaru w podgrupie. Dla każdej z tych podgrup została obliczona średnia oraz suma kwadratów indywidualnych odchyleń, zdefiniowane kolejno w następujący sposób:
+\begin{equation*}
+\bar{T}_{(n)}=\dfrac{1}{n}\sum_{j=1}^{n}T_{ij},
+\end{equation*}
+\begin{equation*}
+\xi_{(n)i}=\sum_{j=1}^{n}(T_{ij}-\bar{T}_{(n)i})^2,
+\end{equation*}
+gdzie $T_{j}$ jest j-tym okresem w podgrupie, a $\bar{T}_{(n)}$ jest średnim okresem w podgrupie. Określono sumę kwadratów indywidualnych dla całej grupy poprzez wzięcie średniej arytmetycznej wszystkich sum z podgrup w danej grupie, czyli:
+\begin{equation}
+\xi_{(n)}=\dfrac{1}{k}\sum_{i=1}^{k}\xi_{(n)i},
+\end{equation}
+ Suma ta pozwala określić odchylenie pojedynczego wyniku od wartości średniej. Mała wartość tej sumy oznacza, że otrzymane wyniki są zbliżone do siebie, a wysoka dużą rozbieżność wyników. Jest to krok w określaniu dokładności pomiaru. Tabela 1 przedstawia wyniki obliczeń dla Równania (1).
+
+ \begin{center}
+ \begin{table}[h!]
+ \label{1}
+ \centering
+ \caption{Tabela średnich wartości $\xi_{(n)}$ }
+ \begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ $n$ &$\xi_{(n)}[$s$^2]$& $n$ &$\xi_{(n)}[$s$^2]$ & $n$& $\xi_{(n)}[$s$^2]$  \\
+ \hline
+ 2 & $0,003972$ & 6 & $0,020108$ & 12 & $0,043923$ \\
+ \hline
+ 3 & $0,007870$ & 8 & $0,028206$ & 18 & $0,068471$ \\
+ \hline
+ 4 & $0,011427$ & 9 & $0,032713$ & 24 & $0,091109$ \\
+
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ 
+ 
+  Wykres zależności tej sumy od ilości elementów w podgrupie jest zamieszczony na Rysunku 4. Można zauważyć rosnącą rozbieżność wyników wraz ze wzrostem liczby elementów przypadających na podgrupę. Jest to zrozumiałe, ponieważ wraz ze wzrostem liczby elementów rośnie prawdopodobieństwo, że wśród nich znajdują się elementy znacząco różniące się od średniej. Na Rysunku 4 zaznaczono krzywą najlepszego dopasowania, która jest prostą o równaniu ogólnym $y=ax+b$. Wartości $a$ i $b$ wyznaczone dla $n=6$ i $n=18$ wynoszą $a=0,00403$, $b=-0,00407$ s$^{2}$. Warto zauważyć, że $a\approx-b$. Krzywa ta wskazuje również, że dla $n=1$ $\xi_{(n)}=0$. Dzieje się tak, ponieważ odchylenie pomiaru od siebie samego jest równe zero.
+  Kolejna wartość, jaka została obliczona, to odchylenie standardowe wyniku pojedynczego pomiaru. Pozwala ono określić jaka jest średnia różnica pomiędzy pomiarem, a wartością średnią wszystkich wyników. Znajomość tej wartości dla wszystkich wyników pozwoli oszacować niepewność statystyczną. Odchylenie to dla danej grupy $k$-elementowej jest dane wzorem:
+\begin{equation}
+s^2_{(n)}=\dfrac{1}{k-1}\sum_{i=1}^{k}(\bar{T}_{(n)i}-\bar{T})^2,
+\end{equation}
+gdzie $\bar{T}$ jest średnią ze wszystkich pomiarów \cite{tay3}. W tym przypadku $\bar{T}=3,3262$ s. Tabela 2 przedstawia wyniki obliczeń dla Równania (2).
+\begin{center}
+ \begin{table}[h!]
+ \label{2}
+ \centering
+ \caption{Tabela wartości $s^2_{(n)}$ }
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ n & 2& 3 &4 & 6 & 8 & 9 & 12 & 18 & 24 \\
+ \hline
+$s^2_{(n)}[$s$^2]$ & $0,00196$ & $0,00132$ & $0,00109$ & $0,00059$ & $0,00042$ & $0,00030$ & $0,00028$ & $0,00013$ & $0,00015$ \\
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+Z danych tych stworzono wykres dołączony jako Rysunek 5. Wyraźnie widać zależność logarytmiczną. Wynika stąd, że wzrost liczby pomiarów $n$ powoduje gwałtowny spadek odchylenia pojedynczego pomiaru, czyli im więcej pomiarów zostanie uwzględnione w próbce, tym bardziej jej średnia zbliży się do wartości średniej wszystkich pomiarów. Dla $n=1$ i $k=216$ wartość $s_{1}^2$ wynosi $0,00394$ s$^{2}$. 
+
+Rysunek 6 przedstawia zależność pomiędzy ln($n$) i ln(${s_{n}^2}$), przy czym wartość $s_{n}^{2}$ została potraktowana jako bezwymiarowa. Prezentowana zależność jest zależnością liniową, o współczynnikach $a=-1,06188$ i $b=-5,535$. Współczynniki te  zostały wyliczone dla ln$(n)=0$ i ln$(s^2)=-5,535$ oraz dla ln$(n)=2,485$ i ln$(s^2)=-8,174$. Wartość $a\approx-1$ świadczy o tym, że $s^2$ zależy od $n$ jak $1/n$.   Tabela 3 przedstawia wartości dla wszystkich $n$.
+\begin{center}
+ \begin{table}[h!]
+ \label{3}
+ \centering
+ \caption{Tabela wartości ln(${s_{n}^2}$) }
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+ 
+ \hline
+
+
+ ln($n$) & $0$ & $0,693$ & $1,099$ & $1,386$ & $1,792$ & $2,079$ & $2,197$ & $2,485$ & $2,890$ & $3,178$ \\
+
+ \hline
+  ln(${s_{n}^2}$) &$-5,535$& $-6,235$ &$-6,629$&$-6,822$ & $-7,433$ & $-7,785$ & $-8,097$ &$-8,174$ & $-8,920$ &$-8,828$ \\
+ \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+
+Rysunek 7 prezentuje zależność pomiędzy 1/$n$ i $s_{n}^{2}$. Po raz kolejny otrzymano zależność liniową. Współczynniki $a=0,00411$ i $b=-0,00010$ tej prostej wyznaczono dla punktów $(1/n)=0,5$ i $(1/n)=0,125$.
+ 
+ \begin{center}
+ \begin{table}[h!]
+ \label{4}
+ \centering
+ \caption{Tabela wartości ${s_{n}^2}$ i 1/$n$ }
+ \begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+ 1/$n$ & $1$ & $0,5$ & $0,3333$ & $0,2500$ & $0,1667$  \\
+
+ \hline
+  $s^2_{(n)}[$s$^2]$ & $0,00394 $ & $0,00196$ & $0,00132$ & $0,00109$ & $0,00059$  \\
+ \hline
+ 1/$n$ & $0,1250$ & $0,1111$ & $0,0833$ & $0,0556$ & $0,0417$ \\
+ \hline
+  $s^2_{(n)}[$s$^2]$ & $0,00042$ & $0,00030$ & $0,00028$ & $0,00013$ & $0,00015$ \\
+  \hline
+ \end{tabular}
+ \end{table}
+ \end{center}
+ 
+  
+Otrzymywanie zależności liniowych oraz logarytmicznych świadczy o poprawnie przeprowadzonych pomiarach oraz o poprawnym wyznaczeniu wartości $s^2$. Dzięki temu można przejść do wyznaczania statystycznych niepewności dla wszystkich dokonanych pomiarów.
+
+Średnia wartość okresu dla 216 pojedynczych pomiarów wynosi $\bar{T}=3,32616$ s, a jego statystyczna niepewność standardowa średniej, jako pierwiastek z ${s_{1}^2}/{N}$, gdzie $N=216$ wynosi $s_{\bar{T}}=0,0043$ s. Analogiczne obliczenia przeprowadzone dla średniej z czterech kolejnych okresów i czwartych części okresów poczwórnych dają następujące wyniki:
+
+ \begin{table}[h!]
+  \label{5}
+ \centering
+ \caption{Tabela wartości $\bar{T}$ i $s_{T}$ }
+ \begin{tabular}{|c|c|c|c|}
+ \hline
+ & Pojedynczy okres & Cztery kolejne okresy & Poczwórny okres  \\
+ \hline
+ $\bar{T}$ [s]&$3,3262$ s &  $3,3262$ s & $3,2933$ s   \\
+ \hline
+ $s_{\bar{T}}$ [s]&$0,0043$ s& $0,0045$ s & $0,0026$ s \\
+ \hline
+
+ \end{tabular}
+ \end{table}
+ Na podstawie histogramów oraz wartości $s_{\bar{T}}$ można stwierdzić, że najbardziej wiarygodne wyniki otrzymano dla poczwórnego okresu wahadła. Histogram tych wartości cechuje się najwęższym przedziałem, a niepewność statystyczna najmniejszą wartością. Dodatkowo pomiar poczwórnych okresów był najmniej wrażliwy na niedokładność stopera i czas reakcji obserwatora.
+ \begin{center}
+\textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
+\end{center}
+Pomiary okresu wahadła były wykonywane przy pomocy stopera i punktów charakterystycznych. Wiele zależało od oceny obserwatora, czy wahadło wykonało już pełny okres, jak i również od jego czasu reakcji. Samo wahadło było wprawiane w ruch ręcznie, co mogło generować dodatkowe rozbieżności. Pomimo tych wszystkich niedoskonałości udało uzyskać się zbliżone do siebie wyniki oraz niskie niepewności statystyczne. Zastosowanie trzech różnych metod wyznaczania niepewności oraz okresu, które doprowadziły do podobnych wyników, jest potwierdzeniem poprawnie przeprowadzonego eksperymentu oraz dokładnej analizy danych. Aby uzyskać bardziej precyzyjne wyniki, należałoby skorzystać z mechanicznego mechanizmu, który wprawiałby wahadło ruch oraz z czujników, które pozwoliłyby precyzyjnie określić czas pojedynczego okresu. Aczkolwiek uzyskane w ten sposób wyniki nie odbiegałyby znacząco od tych uzyskanych w tym eksperymencie.
+
+
+
+\begin{center}
+\begin{thebibliography}{9}
+
+\bibitem{hrw}
+ D. Halliday, R. Resnick, J. Walker,
+  \emph{Podstawy Fizyki, Tom 2},
+  PWN, Warszawa, 2003, s. 105.
+ 
+ \bibitem{tay1}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 116.
+ 
+  \bibitem{tay3}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 101.
+
+\end{thebibliography}
+\end{center}
+ \begin{center}
+\textbf{\subsection*{DODATEK A}}
+\end{center}
+Zawarte są tutaj pomiary 216 pojedynczych okresów wahadła, jak i 54 poczwórnych okresów wahadła. 
+
+\begin{center}
+ \begin{table}[h!]
+ 
+ \centering
+ \caption{Tabela wartości pojedynczych okresów [s] } \label{6}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+3,38 & 3,31&   3,22&	3,34&	3,25&   3,25&	3,28&	3,37&	3,37& 3,34&	3,16&	3,44\\
+\hline
+3,31&	3,28&	3,38&	3,28&   3,31&	3,34& 3,35 &	3,34&   3,34& 3,28&	3,31&	3,19\\
+\hline
+3,34&	3,31&	3,28& 3,29&	3,25&   3,31&	3,34&	3,41&	3,47&	3,46&	3,41&   3,35\\
+\hline	
+3,31&	3,34&	3,44&	3,41&	3,34&	3,19&	3,50&	3,43&	3,31& 3,41&	3,31&	3,31\\
+\hline
+3,13&	3,35&	3,37&	3,31&	3,25&	3,35& 3,34&	3,31&	3,35&	3,25&	3,28&	3,28\\
+\hline
+3,35&	3,40&	3,22& 3,18&	3,28&	3,32&	3,25&	3,40&	3,34&	3,28&	3,31&	3,25\\
+\hline
+3,35&	3,34&	3,34&	3,31&	3,25&	3,31&	3,31&	3,28&	3,28& 3,28&	3,31&	3,22\\
+\hline
+3,25&	3,34&	3,34&	3,28&	3,31&	3,25& 3,32&	3,34&	3,40&	3,25&	3,29&	3,28\\
+\hline
+3,34&	3,34&	3,29& 3,37&	3,25&	3,31&	3,28&	3,22&	3,25&	3,35&	3,38&	3,41\\
+\hline
+3,32&	3,35&	3,35&	3,37&	3,32&	3,32&	3,35&	3,37&	3,37& 3,35&	3,32&	3,41\\
+\hline
+3,28&	3,32&	3,35&	3,25&	3,35&	3,28& 3,28&	3,28&	3,32&	3,25&	3,32&	3,32\\
+\hline
+3,35&	3,32&	3,32& 3,25&	3,32&	3,32&	3,25&	3,28&	3,28&	3,37&	3,35&	3,41\\
+\hline
+3,35&	3,37&	3,35&	3,35&	3,28&	3,44&	3,37&	3,28&	3,44& 3,28&	3,32&	3,28\\
+\hline
+3,35&	3,35&	3,37&	3,32&	3,35&	3,35& 3,53&	3,35&	3,35&	3,25&	3,35&	3,37\\
+\hline
+3,32&	3,35&	3,37& 3,41&	3,41&	3,32&	3,47&	3,39&	3,37&	3,18&	3,35&	3,22\\
+\hline
+3,37&	3,35&	3,25&	3,41&	3,32&	3,32&	3,32&	3,37&	3,32& 3,32&	3,41&	3,35\\
+\hline
+3,41&	3,18&	3,32&	3,44&	3,32&	3,32& 3,22&	3,35&	3,32&	3,28&	3,37&	3,35\\
+\hline
+3,41&	3,41&	3,41& 3,25&	3,37&	3,32&	3,25&	3,37&	3,22&	3,35&	3,37&	3,44\\
+\hline
+
+  \end{tabular}
+ \end{table}
+ \end{center}
+ 
+ 
+ 
+ \begin{center}
+ \begin{table}[h!]
+
+ \centering
+ \caption{Tabela wartości poczwórnych okresów [s] }  \label{7}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+ \hline
+13,06	&13,15&	12,97&	13,25&	13,13&	13,06&	13,25&	12,94&	13,28\\	
+\hline
+13,09&	13,10&	13,16&	13,31&	13,15&	13,18&	13,16&	13,21&	13,22\\	
+\hline
+13,25&	13,15&	13,18&	13,25&	13,25&	13,16&	13,19&	13,12&	13,18\\	
+\hline
+13,16&	13,18&	13,22&	13,25&	13,25&	13,22&	13,32&	13,22&	13,22\\	
+\hline
+13,18&	13,13&	13,18&	13,18&	13,25&	13,19&	13,22&	13,06&	13,09\\	
+\hline
+13,19&	13,15&	13,18&	13,13&	13,25&	13,19&	13,13&	13,16&	13,06\\
+\hline
+
+ 
+  \end{tabular}
+ \end{table}
+ \end{center}
+ 
+ \begin{center}
+ \begin{table}[ht!] 
+ \centering
+ \caption{Tabela przedziałów i krotności histogramów} \label{8}
+ \begin{tabular}{|c|c|c|c|}
+ \hline
+ Przedziały [s]&Pojedyncze okresy&4 kolejne okresy&Poczwórne okresy\\
+ \hline
+ (3,11; 3,14]&1&0&0\\
+  \hline
+ (3,14; 3,17]&1&0&0\\
+  \hline
+ (3,17; 3,20]&5&0&0\\
+  \hline
+ (3,20; 3,23]&7&0&0\\
+  \hline
+ (3,23; 3,26]&21&2&2\\
+  \hline
+ (3,26; 3,29]&29&4&20\\
+  \hline
+ (3,29; 3,32]&47&22&29\\
+  \hline
+ (3,32; 3,35]&51&16&2\\
+  \hline
+ (3,35; 3,38]&23&6&0\\
+  \hline
+ (3,38; 3,41]&19&4&0\\
+  \hline
+ (3,41; 3,44]&7&0&0\\
+  \hline
+ (3,44; 3,47]&3&0&0\\
+  \hline
+ (3,47; 3,50]&1&0&0\\
+  \hline
+
+ \end{tabular}
+ \end{table}
+ \end{center}
+ 
+ 
+ \begin{center}
+ \begin{table}[ht!] 
+ \centering
+ \caption{Tabela przedziałów i częstości} \label{9}
+ \begin{tabular}{|c|c|c|c|}
+ \hline
+ Przedziały [s]&Pojedyncze okresy&4 kolejne okresy&Poczwórne okresy\\
+ \hline
+ (3,11; 3,14]&0,0046&0&0\\
+  \hline
+ (3,14; 3,17]&0,0046&0&0\\
+  \hline
+ (3,17; 3,20]&0,023&0&0\\
+  \hline
+ (3,20; 3,23]&0,032&0&0\\
+  \hline
+ (3,23; 3,26]&0,097&0,037&0,037\\
+  \hline
+ (3,26; 3,29]&0,13&0,074&0,37\\
+  \hline
+ (3,29; 3,32]&0,22&0,41&0,54\\
+  \hline
+ (3,32; 3,35]&0,24&0,30&0,037\\
+  \hline
+ (3,35; 3,38]&0,11&0,11&0\\
+  \hline
+ (3,38; 3,41]&0,088&0,074&0\\
+  \hline
+ (3,41; 3,44]&0,032&0&0\\
+  \hline
+ (3,44; 3,47]&0,014&0&0\\
+  \hline
+ (3,47; 3,50]&0,0046&0&0\\
+  \hline
+
+ \end{tabular}
+ \end{table}
+ \end{center}
+ 
+\end{document}

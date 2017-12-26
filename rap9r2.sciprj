@@ -1,0 +1,65 @@
+SciDAVis 1.18.0 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+3044
+<table creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="Table1" columns="3" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.8100000000000007e-02</row><row type="TypeDouble" index="1" invalid="no">1.9620000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">2.9430000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">3.9240000000000003e-01</row></column><column creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-08-11 01:02:01:965" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">9.2630000000000004e-02</row><row type="TypeDouble" index="1" invalid="no">1.8497000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">2.7632000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">3.7916000000000000e-01</row></column><column creation_time="2017-08-11 01:02:29:123" caption_spec="%n%C{ - }%c" name="3" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-08-11 01:02:29:123" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-08-11 01:02:29:123" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0399999999999999e-03</row><row type="TypeDouble" index="1" invalid="no">2.6900000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">4.8399999999999997e-03</row><row type="TypeDouble" index="3" invalid="no">6.9699999999999996e-03</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width></table>
+geometry	0	0	893	555	
+
+</table>
+<multiLayer>
+Graph1	1	1	08.11.2017 01:03:05
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	438	307
+Alignement	0	0
+<graph>
+ggeometry	19	11	1878	836
+PlotTitle	Zależność przyśpieszenia od siły	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Wartosć siły mg [N]	Przyśpieszenie a [m/s<sup>2</sup>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	23	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	18	75	0	0	0
+AxisFont0	MS Shell Dlg 2	18	50	0	0	0
+AxisFont1	MS Shell Dlg 2	18	50	0	0	0
+AxisFont2	MS Shell Dlg 2	18	50	0	0	0
+AxisFont3	MS Shell Dlg 2	18	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_2	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+ErrorBars	1	Table1_1	Table1_2	Table1_3	1	8	#000000	1	1	1
+FunctionCurve	0,F1,x,0,4	500			0	1	0	0	3	0	0	0	19	0	0	14	0	2	0	105095888	1263159624	1
+<formula>
+0.946242938941327*x
+</formula>
+scale	0	0	0.4	0	7	5	0	0
+scale	1	0	0.4	0	8	5	0	0
+scale	2	0	0.4	0	9	5	0	0
+scale	3	0	0.4	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	3
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+</log>

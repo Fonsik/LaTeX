@@ -1,0 +1,62 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage[european]{circuitikz}
+\usepackage{geometry}
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+\usepackage{amssymb}
+\usepackage{polski}
+\usepackage{graphicx}
+\author{\textbf{T. Fąs}}
+\title{\textbf{DOŚWIADCZALNE SPRAWDZENIE DRUGIEJ ZASADY DYNAMIKI}}
+\begin{document}
+\maketitle
+
+
+\begin{center}
+\textbf{\subsection*{STRESZCZENIE}}
+\end{center}
+Celem doświadczenia było sprawdzenie, czy w warunkach eksperymentu spełniona jest druga zasada dynamiki Newtona. Udało się udowodnić, że przyśpieszenie jest wprost proporcjonalne do działającej siły oraz odwrotnie proporcjonalne do masy ciała. Dodatkowo, korzystając z wyznaczonej doświadczalnie masy układu, wyznaczono 
+
+
+\begin{center}
+\textbf{\subsection*{WSTĘP}}
+\end{center}
+
+
+
+
+\begin{center}
+\textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
+\end{center}
+
+
+\begin{center}
+\textbf{\subsection*{WYNIKI POMIARÓW}}
+\end{center}
+
+
+\begin{center}
+\textbf{\subsection*{ANALIZA DANYCH}}
+\end{center}
+
+
+
+\begin{center}
+\textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
+\end{center} 
+
+
+\begin{center}
+\begin{thebibliography}{9}
+
+
+\end{thebibliography}
+
+\end{center}
+
+
+\end{document}
