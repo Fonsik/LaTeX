@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.12.12)  30 DEC 2017 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.12.12)  31 DEC 2017 00:33
 entering extended mode
 **./raport14.tex
 (raport14.tex
@@ -1100,6 +1100,13 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count180
+\multirow@dima=\skip59
+\bigstrutjot=\dimen280
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\polski.sty"
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
@@ -1150,29 +1157,29 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 ) (raport14.aux)
 \openout1 = `raport14.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \celsius on input line 16.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \Omega for \ohm on input line 15.
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \Omega for \ohm on input line 16.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1260,16 +1267,16 @@ File: siunitx-abbreviations.cfg 2017/03/23 v2.7f siunitx: Abbreviated units
 ABD: EveryShipout initializing macros
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
-\scratchdimen=\dimen280
+\scratchcounter=\count181
+\scratchdimen=\dimen281
 \scratchbox=\box62
-\nofMPsegments=\count181
-\nofMParguments=\count182
+\nofMPsegments=\count182
+\nofMParguments=\count183
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count183
-\MPscratchDim=\dimen281
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
+\MPscratchCnt=\count184
+\MPscratchDim=\dimen282
+\MPnumerator=\count185
+\makeMPintoPDFobject=\count186
 \everyMPtoPDFconversion=\toks37
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -1347,71 +1354,71 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c__siunitx_mathsf_int=\count186
-LaTeX Font Info:    Try loading font information for OML+plm on input line 15.
+\c__siunitx_mathsf_int=\count187
+LaTeX Font Info:    Try loading font information for OML+plm on input line 16.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 16.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 15.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 16.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 15.
+(Font)              <10> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 15.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+(Font)              <5> on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 15.
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 16.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmss.fd"
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-\c__siunitx_mathtt_int=\count187
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 15.
+\c__siunitx_mathtt_int=\count188
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 16.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <17.28> on input line 16.
+(Font)              <17.28> on input line 17.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 
 <rap14rys1.png, id=4, 1445.4pt x 723.45282pt>
 File: rap14rys1.png Graphic file (type png)
  <use rap14rys1.png>
-Package pdftex.def Info: rap14rys1.png used on input line 63.
+Package pdftex.def Info: rap14rys1.png used on input line 64.
 (pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
 
 <rap14rys2.png, id=5, 1445.4pt x 723.45282pt>
 File: rap14rys2.png Graphic file (type png)
  <use rap14rys2.png>
-Package pdftex.def Info: rap14rys2.png used on input line 68.
+Package pdftex.def Info: rap14rys2.png used on input line 69.
 (pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
 
 
@@ -1420,13 +1427,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <rap14rys31.png, id=6, 1445.4pt x 723.45282pt>
 File: rap14rys31.png Graphic file (type png)
  <use rap14rys31.png>
-Package pdftex.def Info: rap14rys31.png used on input line 76.
+Package pdftex.def Info: rap14rys31.png used on input line 77.
 (pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
 
 <rap14rys32.png, id=7, 1445.4pt x 723.45282pt>
 File: rap14rys32.png Graphic file (type png)
  <use rap14rys32.png>
-Package pdftex.def Info: rap14rys32.png used on input line 81.
+Package pdftex.def Info: rap14rys32.png used on input line 82.
 (pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
 
 
@@ -1435,32 +1442,69 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./rap14rys1.png> <./r
-ap14rys2.png> <./rap14rys31.png> <./rap14rys32.png>] (raport14.aux) ) 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<rap14rys4.png, id=21, 1445.4pt x 723.45282pt>
+File: rap14rys4.png Graphic file (type png)
+ <use rap14rys4.png>
+Package pdftex.def Info: rap14rys4.png used on input line 108.
+(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+
+<rap14rys5.png, id=22, 1445.4pt x 723.45282pt>
+File: rap14rys5.png Graphic file (type png)
+ <use rap14rys5.png>
+Package pdftex.def Info: rap14rys5.png used on input line 113.
+(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<rap14rys6.png, id=23, 1445.4pt x 723.45282pt>
+File: rap14rys6.png Graphic file (type png)
+ <use rap14rys6.png>
+Package pdftex.def Info: rap14rys6.png used on input line 121.
+(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+
+<rap14rys7.png, id=24, 1445.4pt x 723.45282pt>
+File: rap14rys7.png Graphic file (type png)
+ <use rap14rys7.png>
+Package pdftex.def Info: rap14rys7.png used on input line 126.
+(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./rap14rys1.png> <./rap14rys2.png> <./rap14rys31.png> <./rap14rys32.png>]
+[3 <./rap14rys4.png> <./rap14rys5.png> <./rap14rys6.png> <./rap14rys7.png>]
+[4] (raport14.aux) ) 
 Here is how much of TeX's memory you used:
- 29865 strings out of 493320
- 676976 string characters out of 3138936
- 767885 words of memory out of 3000000
- 33003 multiletter control sequences out of 15000+200000
+ 29940 strings out of 493320
+ 678141 string characters out of 3138936
+ 772422 words of memory out of 3000000
+ 33070 multiletter control sequences out of 15000+200000
  23345 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,56p,10394b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Progra
-m Files/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/pl/plmi.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plme.e
-nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/pl/plbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plex10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/pl/plr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/p
-l/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/pl/plti10.pfb>
-Output written on raport14.pdf (2 pages, 273672 bytes).
+ 62i,10n,56p,10394b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C
+:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Program Files/MiKTeX
+ 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/p
+l/plms.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/pl/plex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/pl/plmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/pl/plr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb>
+Output written on raport14.pdf (4 pages, 471791 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
