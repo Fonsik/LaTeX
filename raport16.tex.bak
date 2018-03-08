@@ -1,0 +1,131 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage[european]{circuitikz}
+\usepackage{geometry}
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{polski}
+\usepackage{graphicx}
+\author{\textbf{T. Fąs}}
+\title{\textbf{WYZNACZANIE PRZERWY ENERGETYCZNEJ InSb}}
+\begin{document}
+\maketitle
+
+\begin{center}
+\textbf{\subsection*{STRESZCZENIE}}
+\end{center}
+W doświadczeniu wyznaczono prezerwę energetyczną $E_{G}$ półprzewodnika InSb. Otrzymano wartości: $E_{G}=0,2819\pm0,0019$ eV. Wartość ta jest zgodna z wartością rzeczywistą, która wynosi $0,2511 \pm 0,095$ eV.
+
+
+\begin{center}
+\textbf{\subsection*{WSTĘP}}
+\end{center}
+
+W przypadku półprzewodników, takich jak InSb, w paśmie przewodnictwa jest obecnych niewiele wolnych elektronów, przez co prąd praktycznie nie może płynąć. Spowodowanie jest to istnieniem przerwy energetycznej $E_{G}$ między pasmem przewodnictwa, a pasmem walencyjnym. Gdy dostarczy się elektronom dodatkową energię, pozwalającą na pokonanie przerwy energetycznej, to półprzewodnik będzie zdolny do przewodzenia prądu.
+
+Półprzewodniki charakteryzują się też dużą podatnością na zmiany temperatury. W przypadku półprzewodników samoistnych zależność oporu $R$ od temperatury $T$ wyraża się wzorem:
+
+\begin{equation}
+R\left(T\right)=R_{0}\exp{\left(\dfrac{E_{G}}{2k_{B}T}\right)},
+\end{equation}
+gdzie $k_{B}$ jest stałą Boltzmanna. Tak więc mierząc zależność oporu od temperatury można poznać wartość przerwy energetycznej. 
+
+
+\begin{center}
+\textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
+\end{center}
+
+W pomiarach wykorzystano: miernik CHY 38 do pomiaru oporu próbki, woltomierz mierzący napięcie z dokładnością do 0,001 mV, próbkę InSb przytwierdzoną do podstawki miedzianej oraz ciekły azot do chłodnienia próbki. Do półprzewodnika była podłączona termopara miedź-konstantan, której drugi koniec był zanurzony w naczyniu z ciekłym azotem. Przy pomocy woltomierza mierzono napięcie na termoparze, które następnie przeliczano na temperaturę półprzewodnika. Próbka była stopniowo zanurzana w naczyniu z ciekłym azotem, co pozwalało na jej równomierne schładzanie. Wskazania woltomierza i amperomierza były nagrywane, by później móc wybrać najbardziej wiarygodne wyniki, czyli takie, dla których próbka osiągała stan stacjonarny.
+
+\begin{center}
+\textbf{\subsection*{WYNIKI POMIARÓW}}
+\end{center}
+W Tabeli 1 przedstawiono wyniki pomiarów dla wybranych punktów.
+
+\begin{table}[h!]
+\centering
+\caption{Wyniki pomiarów.}
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+$U$ {[}mV{]} & $T$ {[}K{]} & $R$ {[}$\Omega${]} & $u_{R}$ {[}$\Omega${]} & $U$ {[}mV{]} & $T$ {[}K{]} & $R$ {[}$\Omega${]} & $u_{R}$ {[}$\Omega${]} \\ \hline
+6,359        & 295,9558    & 32,5               & 0,56                   & 2,975        & 201,5979    & 392                & 6,136                  \\ \hline
+6,099        & 289,3208    & 37                 & 0,596                  & 2,965        & 201,2822    & 394                & 6,152                  \\ \hline
+5,889        & 283,9077    & 41,3               & 0,6304                 & 2,911        & 199,5716    & 416                & 6,328                  \\ \hline
+5,728        & 279,7231    & 45,1               & 0,6608                 & 2,548        & 187,8057    & 565                & 7,52                   \\ \hline
+5,596        & 276,2687    & 48,8               & 0,6904                 & 2,524        & 187,0101    & 576                & 7,608                  \\ \hline
+5,409        & 271,337     & 54,4               & 0,7352                 & 2,404        & 182,9965    & 626                & 8,008                  \\ \hline
+5,324        & 269,0801    & 57,3               & 0,7584                 & 2,307        & 179,7066    & 667                & 8,336                  \\ \hline
+5,005        & 260,5197    & 70,3               & 0,8624                 & 2,142        & 174,0097    & 725                & 8,8                    \\ \hline
+4,974        & 259,6799    & 71,7               & 0,8736                 & 1,96         & 167,5653    & 784                & 9,272                  \\ \hline
+4,948        & 258,9744    & 73,6               & 0,8888                 & 1,782        & 161,081     & 832                & 9,656                  \\ \hline
+4,364        & 242,8372    & 112,9              & 1,2032                 & 1,627        & 155,2705    & 868                & 9,944                  \\ \hline
+4,301        & 241,0606    & 118,6              & 1,2488                 & 1,611        & 154,6613    & 871                & 9,968                  \\ \hline
+3,699        & 223,677     & 194                & 4,552                  & 1,326        & 143,4783    & 923                & 10,384                 \\ \hline
+3,686        & 223,2927    & 197                & 4,576                  & 1,238        & 139,8846    & 937                & 10,496                 \\ \hline
+3,681        & 223,1448    & 198                & 4,584                  & 0,883        & 124,552     & 992                & 10,936                 \\ \hline
+3,678        & 223,0561    & 199                & 4,592                  & 0,853        & 123,1848    & 995                & 10,96                  \\ \hline
+3,278        & 211,0166    & 293                & 5,344                  & 0,785        & 120,0376    & 1006               & 11,048                 \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{center}
+\textbf{\subsection*{ANALIZA DANYCH}}
+\end{center}
+ Napięcie $U$ na termoparze  przeliczono na temperaturę $T$ korzystając z zależności: $T=100\sqrt{0.034U^2+1.07U+0.58}$.  Niepewność $u_{R}$ oporu obliczono, korzystając z instrukcji miernika. Wyniki tych obliczeń są przedstawione w Tabeli 1, wraz z odpowiadającymi im wartościami napięcia i oporu.
+ 
+ 
+ Wartości temperatury i oporu z Tabeli 1 naniesiono na wykres przedstawiony na Rysunku 1.
+ 
+ \begin{figure}[h!]
+\centering
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=8cm, height=6cm ]{rap16rys1} 
+\caption{Zależność oporu od temperatury.}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+  \centering
+  \includegraphics[width=8cm, height=6cm ]{rap16rys2} 
+\caption{Krzywa najlepszego dopasowania.}
+\end{minipage}
+\end{figure}
+
+Jak widać wykres ten nie podlega zależności z Równania (1). Wynika do z faktu, iż Równanie (1) jest prawdziwe tylko dla czystej próbki, tymczasem rzeczywiste półprzewodnik są zanieczyszczone różnymi innymi związkami, których udział dominuje w niskich temperaturach.   Dlatego też należy ograniczyć obszar dopasowywania krzywej do wyników pomiarów do zakresu 205-300 K. W takim zakresie temperatur właściwości InSb są dominujące i punkty podlegają zależności z Równania (1).
+
+Do dopasowania krzywej wykorzystano program \textit{gnuplot}, zakres danych obejmował 17 punktów pomiarowych, a dopasowywania krzywa miała postać Równania (1). Otrzymano wartości $R_{0}=0,1314\pm0,0057$ $\Omega$, $E_{G}/2k_{B}=1636\pm11$ K, a samą krzywą przedstawiono na Rysunku 2. Wartość $\chi^2$ wynosi 17,45 i jest to wartość niższa od wartości krytycznej, która dla 15 stopni swobody i wartości p=0,05 wynosi 27,59. Tak więc dane z przedziału (205-300)K nie przeczą Równaniu (1). Z wartości $E_{G}/2k_{B}=1636$ K wyznaczono $E_{G}=0,2819$ eV kładąc $k_{B}=8,617\cdot10^{-5}$ eV/K. Niepewność tej wielkości wyznaczono, korzystając z metody propagacji małych błędów.
+Wzór przenoszenia niepewności w tej metodzie jest następujący:
+
+ \begin{equation}
+ u_{f}^2=\sum_{i=1}^n \left( \dfrac{\partial f}{\partial x_{i}}u_{i}\right)^2
+ \end{equation}
+ gdzie wielkość $f$ zależy od wielkości $x_{i}$ o niepewnościach $u_{i}$ \cite{tay1}. Przy założeniu, że stałą Boltzmanna znamy dokładnie, wartość niepewności przerwy energetycznej wynosi 0,0019 eV. Ostatecznie $E_{G}=0,2819\pm0,019$ eV. Wartość rzeczywista wynosi $0,2511\pm0,095$ eV \cite{eg}. Różnica tych wielkości wynosi 0,031 eV, a niepewność tej różnicy, obliczona z Równania (2) wynosi 0,095 eV. Tak więc różnica jest mniejsza od trzykrotności jej niepewności, więc na mocy testu $3\sigma$ otrzymana wartość $E_{G}$ jest zgodna z wartością rzeczywistą.
+
+\begin{center}
+\textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
+\end{center} 
+
+Dysponując podstawowymi narzędziami, takimi jak woltomierz, omomierz oraz ciekły azot, udało się uzyskać wartości zgodne z wartościami rzeczywistymi oraz cechujące się niższą niepewnością. Nie wykryto również żadnych anomalii, otrzymane dane były zgodne z przewidywaniami. Warto brać pod uwagę to, iż ciężko było liczyć na uzyskanie stanu stacjonarnego w doświadczeniu i wszystkie zebrane dane nie są tak naprawdę wartościami, które dokładnie sobie odpowiadają. Lecz mimo to udało się uzyskać wysoką zgodność wyników z przewidywaniami.Cały eksperyment można uznać za zakończony sukcesem.
+\begin{center}
+\begin{thebibliography}{9}
+
+ \bibitem{tay1}
+ J. R. Taylor,
+ \emph{Wstęp do analizy błędu pomiarowego},
+ PWN, Warszawa, 1995, s. 175.
+
+\bibitem{eg}
+H. Bernot, H. Hinsch
+ \emph{Determination of the intrinsic carrier concentration in InSb by helicon waves},
+ Applied Physics, Volume 1, Issue 3, s.147-151
+ 
+ \end{thebibliography}
+
+\end{center}
+
+
+\end{document}

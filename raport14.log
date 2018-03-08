@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.12.12)  31 DEC 2017 00:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.12.12)  31 DEC 2017 12:58
 entering extended mode
 **./raport14.tex
 (raport14.tex
@@ -1409,32 +1409,32 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 17.
 
-<rap14rys1.png, id=4, 1445.4pt x 723.45282pt>
+<rap14rys1.png, id=4, 1445.4pt x 648.17157pt>
 File: rap14rys1.png Graphic file (type png)
  <use rap14rys1.png>
 Package pdftex.def Info: rap14rys1.png used on input line 64.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
-<rap14rys2.png, id=5, 1445.4pt x 723.45282pt>
+<rap14rys2.png, id=6, 1445.4pt x 648.17157pt>
 File: rap14rys2.png Graphic file (type png)
  <use rap14rys2.png>
 Package pdftex.def Info: rap14rys2.png used on input line 69.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<rap14rys31.png, id=6, 1445.4pt x 723.45282pt>
+<rap14rys31.png, id=7, 1445.4pt x 648.17157pt>
 File: rap14rys31.png Graphic file (type png)
  <use rap14rys31.png>
 Package pdftex.def Info: rap14rys31.png used on input line 77.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
-<rap14rys32.png, id=7, 1445.4pt x 723.45282pt>
+<rap14rys32.png, id=8, 1445.4pt x 648.17157pt>
 File: rap14rys32.png Graphic file (type png)
  <use rap14rys32.png>
 Package pdftex.def Info: rap14rys32.png used on input line 82.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1443,32 +1443,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<rap14rys4.png, id=21, 1445.4pt x 723.45282pt>
+<rap14rys4.png, id=22, 1445.4pt x 648.17157pt>
 File: rap14rys4.png Graphic file (type png)
  <use rap14rys4.png>
 Package pdftex.def Info: rap14rys4.png used on input line 108.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
-<rap14rys5.png, id=22, 1445.4pt x 723.45282pt>
+<rap14rys5.png, id=23, 1445.4pt x 648.17157pt>
 File: rap14rys5.png Graphic file (type png)
  <use rap14rys5.png>
 Package pdftex.def Info: rap14rys5.png used on input line 113.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<rap14rys6.png, id=23, 1445.4pt x 723.45282pt>
+<rap14rys6.png, id=24, 1445.4pt x 648.17157pt>
 File: rap14rys6.png Graphic file (type png)
  <use rap14rys6.png>
 Package pdftex.def Info: rap14rys6.png used on input line 121.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
-<rap14rys7.png, id=24, 1445.4pt x 723.45282pt>
+<rap14rys7.png, id=25, 1445.4pt x 648.17157pt>
 File: rap14rys7.png Graphic file (type png)
  <use rap14rys7.png>
 Package pdftex.def Info: rap14rys7.png used on input line 126.
-(pdftex.def)             Requested size: 227.60759pt x 142.25941pt.
+(pdftex.def)             Requested size: 227.60759pt x 142.26192pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1485,7 +1485,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Here is how much of TeX's memory you used:
  29940 strings out of 493320
  678141 string characters out of 3138936
- 772422 words of memory out of 3000000
+ 772424 words of memory out of 3000000
  33070 multiletter control sequences out of 15000+200000
  23345 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1502,9 +1502,9 @@ iKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/pl/plr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/plsy7.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/pl/plti10.pfb>
-Output written on raport14.pdf (4 pages, 471791 bytes).
+Output written on raport14.pdf (4 pages, 471266 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

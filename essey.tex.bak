@@ -1,0 +1,27 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{amsfonts}
+\usepackage{siunitx}
+\usepackage[european]{circuitikz}
+\usepackage{geometry}
+\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{graphicx}
+\author{\textbf{T. Fas}}
+\title{\textbf{IMPORTANCE OF HUMANITIES}}
+\begin{document}
+\maketitle
+
+
+A common belief in society is that natural sciences are more useful than humanities. And it's true, but it doesn't mean that arts are completely useless. They also play some parts in modern society.
+
+	In our modern society we are constantly connected to the Internet, a web created by physicists and sustained by an army of engineers and developers. Thanks to the grid, we can contact everyone everywhere, we can find every information we want within seconds and see every place on Earth. This is the invention which completely changed our lives. Advancements in medicine allowed us to live longer and easily fight with diseases which were deadly just a century ago. Engineering made our live easier in almost every aspect: we can travel to countless places in a time, that was unbelievable few centuries ago. Technology allowed us to drastically reduce mortality and poverty, our society truly benefits from it. 
+	
+	But what we have from humanities? Art can give us make our surroundings beautiful and mentally comfortable. Literature and poetry can inspire actions and philosophy can raise moral questions about our society and world. They can also give us entertainment in form of novels or movies. But they cannot overcome the practical pros of sciences.
+	
+	In summary we can say that natural sciences are without a doubt more important and beneficial to society than humanities, but arts also can give something to this world.
+	
+\end{document}
