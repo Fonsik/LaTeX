@@ -312,7 +312,7 @@ Szybki rzut oka na Rysunek 13 sugeruje, iż lepsze dopasowanie otrzymano by, gdy
 \begin{center}
 \textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
 \end{center} 
-Otrzymane wartości są niezgodne z przewidywaniami teoretycznymi, choć wizualnie zdają się przedstawiać poszukiwany rozkład. Prawdopodobnie na niezgodność wyników złożyło się kilka czynników: generator nie znajdował się idealnie w punk
+Otrzymane wartości są niezgodne z przewidywaniami teoretycznymi, choć wizualnie zdają się przedstawiać poszukiwany rozkład. Prawdopodobnie na niezgodność wyników złożyło się kilka czynników: generator nie znajdował się idealnie w punkcie 0, co powodowało przesuniecie całego wykresu; szczeliny mogły nie być ustawione symetrycznie względem generatora, co zmieniało rozkład fali, mogło również dochodzić do interferencji z falami odbitymi od ścian; szczególnie widać to po wartościach w drugim maksimum, to po lewej stronie znajdowało się blisko ścin i przedstawia ono inne wartości, niż jego odpowiednik po prawej stronie, który był maksymalnie oddalony od ścian. Podsumowując: choć eksperyment nie zakończył się sukcesem, to otrzymane dane i ich analiza pozwolą na lepsze przeprowadzenie takich doświadczeń w przyszłości.
 
 
 
