@@ -25,13 +25,17 @@ W doświadczeniu zbadano właściwości wzmacniacza operacyjnego oraz skonstruow
 \begin{center}
 \textbf{\subsection*{WSTĘP}}
 \end{center}
-Wzmacniacz operacyjny jest układem realizującym operację wzmocnienia różnicy sygnałów wejściowych. 
+Wzmacniacz operacyjny jest układem realizującym operację wzmocnienia różnicy sygnałów wejściowych. Symbol wzmacniacza przedstawiony jest na Rysunku 1.
 
 \begin{figure}[h!]
-\includegraphics[width=13cm]{rap23rys1} 
+\includegraphics[width=6cm]{rap23rys1} 
 \centering
 \caption{Wzmacniacz operacyjny.}
 \end{figure}
+
+Jeżeli na wejście "+" znajduje się napięcie $U_{+}$, a na wejściu "-" napięcie $U_{-}$, to na wyjściu wzmacniacza otrzymamy sygnał $A(U_{+}-U_{-})$, gdzie $A$ jest pewną stałą wzmocnienia. Układ ten wymaga dodatkowo zasilania z dwóch źródeł, tu oznaczonych jako $V_{CC}$ i $V_{EE}$.
+
+
 
 \begin{center}
 \textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
