@@ -36,6 +36,21 @@ Wzmacniacz operacyjny jest układem realizującym operację wzmocnienia różnic
 Jeżeli na wejście "+" znajduje się napięcie $U_{+}$, a na wejściu "-" napięcie $U_{-}$, to na wyjściu wzmacniacza otrzymamy sygnał $A(U_{+}-U_{-})$, gdzie $A$ jest pewną stałą wzmocnienia. Układ ten wymaga dodatkowo zasilania z dwóch źródeł, tu oznaczonych jako $V_{CC}$ i $V_{EE}$.
 
 
+Korzystając z tego elementu można stworzyć: wzmacniacz odwracający fazę (sygnał na wyjściu ma przeciwną fazę), wzmacniacz nieodwracający fazy, układ różniczkujący (sygnał na wyjściu jest pochodną sygnału wejściowego) i układ całkujący. Schematy tych układów przedstawiono na Rysunku 2. 
+
+\begin{figure}[h!]
+\includegraphics[width=12cm]{rap23rys2} 
+\centering
+\caption{Schematy układów \cite{r1}.}
+\end{figure}
+
+W przypadku wzmacniaczy, zależność napięcia wejściowego od wyjściowego jest zależnością liniową, a zależność napięcia wyjściowego $U_{wy}$ od częstości $\omega$ napięcia  wejściowego $U_{we}$ jest zależnością filtra dolnoprzepustowego, tj:
+
+\begin{equation}
+\left| \dfrac{U_{wy}}{U_{we}}\right|=\dfrac{k\omega_{g}}{\sqrt{\omega^2+\omega_{g}^2}},
+\end{equation}
+
+gdzie $k$ to stała wzmocnienia, a $\omega_{g}$ to częstość krytyczna, dla której stosunek napięć wynosi $1/\sqrt{2}$. 
 
 \begin{center}
 \textbf{\subsection*{UKŁAD DOŚWIADCZALNY}}
@@ -67,7 +82,7 @@ Jeżeli na wejście "+" znajduje się napięcie $U_{+}$, a na wejściu "-" napi�
 
 \bibitem{r1}
  Praca zbiorowa,
- \emph{Instrukcja do ćwiczenia "Wzmacniacz tranzystorowy"},
+ \emph{Instrukcja do ćwiczenia "Wzmacniacz operacyjny"},
  FUW, Warszawa, 2016.
  
  
