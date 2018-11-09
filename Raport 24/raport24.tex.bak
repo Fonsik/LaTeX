@@ -12,7 +12,7 @@
 \usepackage{polski}
 \usepackage{graphicx}
 \author{\textbf{T. Fąs}}
-\title{\textbf{UKŁADY SCALONE}}
+\title{\textbf{SYGNALIZATOR TEMPERATURY}}
 \begin{document}
 \maketitle
 
@@ -56,8 +56,7 @@ Skonstruowano układ zgodnie ze schematem z Rysunku 2, wykorzystując elementy o
 \begin{center}
 \textbf{\subsection*{DYSKUSJA WYNIKÓW I WNIOSKI}}
 \end{center}
-
-
+Skonstruowano działający czujnik temperatury, który zachowywał się zgodnie z oczekiwaniami, tak więc można uznać doświadczenie za zakończone sukcesem.
 
 \begin{center}
 \begin{thebibliography}{9}
